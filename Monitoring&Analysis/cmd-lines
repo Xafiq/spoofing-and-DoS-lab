@@ -1,0 +1,8 @@
+#debian
+sudo wireshark
+  +filter packets /Apply filters to focus on specific types of traffic, such as ARP, TCP, UDP, etc.
+
+
+#kali
+sudo arpspoof -i <interfaz_kali> -t <IP_debian> <gateway>
+sudo hping3 -1 <IP_debian> -I eth0
